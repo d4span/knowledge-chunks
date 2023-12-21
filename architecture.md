@@ -12,7 +12,7 @@ contributors. See <https://arc42.org>.-->
 
 # Introduction and Goals
 
-Knowledge Chunks is a modern mind mapping software that runs on a wide range of operating systems and can be easily extended with a variety of plug-ins.
+Sharpmind is a modern mind mapping software that runs on a wide range of operating systems and can be easily extended with a variety of plug-ins.
 
 ## Requirements Overview
 
