@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "domain", "domain", "{98F046F3-DA80-4012-87A8-73947ABF88C6}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Sharpmind.Mindmaps", "domain\Sharpmind.Mindmaps\Sharpmind.Mindmaps.fsproj", "{0F3EC12C-FB86-4FAA-9C4F-79951D74AF74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F3EC12C-FB86-4FAA-9C4F-79951D74AF74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F3EC12C-FB86-4FAA-9C4F-79951D74AF74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F3EC12C-FB86-4FAA-9C4F-79951D74AF74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F3EC12C-FB86-4FAA-9C4F-79951D74AF74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F3EC12C-FB86-4FAA-9C4F-79951D74AF74} = {98F046F3-DA80-4012-87A8-73947ABF88C6}
 	EndGlobalSection
 EndGlobal
